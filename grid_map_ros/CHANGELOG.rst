@@ -2,6 +2,21 @@
 Changelog for package grid_map_ros
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.2.0 (2024-07-23)
+------------------
+* Merge pull request `#458 <https://github.com/ANYbotics/grid_map/issues/458>`_ from ANYbotics/ci-temp-skip-octomap-server
+  build: treat several build issues on rolling
+* Rosbag timestamp changes.
+* Merge pull request `#443 <https://github.com/ANYbotics/grid_map/issues/443>`_ from Ryanf55/update-maintainers
+  Add Ryan as maintainer, remove Steve
+* Add Ryan as maintainer, remove Steve
+* Contributors: Roderick Taylor, Ryan, Ryan Friedman
+
+2.1.0 (2022-11-08)
+------------------
+* fix: change cv_bridge.h -> .hpp (`#376 <https://github.com/ANYbotics/grid_map/issues/376>`_)
+* Contributors: Iván López Broceño
+
 2.0.0 (2022-09-13)
 ------------------
 * fix: mark Eigen library as SYSTEM
