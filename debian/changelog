@@ -1,0 +1,58 @@
+ros-humble-grid-map-octomap (2.0.1-1bookworm) bookworm; urgency=high
+
+  * Merge pull request #445 <https://github.com/Ryanf55/grid_map/issues/445> from ANYbotics/mergify/bp/humble/pr-443
+    Add Ryan as maintainer, remove Steve (backport #443 <https://github.com/Ryanf55/grid_map/issues/443>)
+  * Add Ryan as maintainer, remove Steve
+    (cherry picked from commit 852f67694637612e624e4c683a01ab589408b8e7)
+  * Contributors: Ryan, Ryan Friedman
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Fri, 17 Jan 2025 16:00:00 -0000
+
+ros-humble-grid-map-octomap (2.0.0-1bookworm) bookworm; urgency=high
+
+  * fix: mark Eigen library as SYSTEM
+  * fix: build error on jammy
+  * Initial ROS2 port
+  * Contributors: Maximilian Wulf, Steve Macenski
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 12 Sep 2022 16:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Sun, 13 Oct 2019 16:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.1-1bookworm) bookworm; urgency=high
+
+  * Updated author e-mail address.
+  * Contributors: Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Tue, 26 Feb 2019 16:00:00 -0000
+
+ros-humble-grid-map-octomap (1.6.0-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Thu, 23 Nov 2017 16:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.2-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 16:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.1-1bookworm) bookworm; urgency=high
+
+
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 24 Jul 2017 16:00:00 -0000
+
+ros-humble-grid-map-octomap (1.5.0-1bookworm) bookworm; urgency=high
+
+  * Added new package for octomap to grid map conversion.
+  * Contributors: Jeff Delmerico, Peter Fankhauser
+
+ -- Maximilian Wulf <mwulf@anybotics.com>  Mon, 17 Jul 2017 16:00:00 -0000
+
+
