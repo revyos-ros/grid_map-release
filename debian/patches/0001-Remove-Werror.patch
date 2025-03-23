@@ -1,0 +1,25 @@
+From b5c20ce967c112822d46e7e9dde61923f20fff59 Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <z572@z572.online>
+Date: Sun, 23 Mar 2025 17:13:19 +0800
+Subject: [PATCH] Remove Werror.
+
+---
+ cmake/grid_map_package.cmake | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/cmake/grid_map_package.cmake b/cmake/grid_map_package.cmake
+index 4867a92..291c9f3 100644
+--- a/cmake/grid_map_package.cmake
++++ b/cmake/grid_map_package.cmake
+@@ -17,7 +17,7 @@ macro(grid_map_package)
+   endif()
+ 
+   if(CMAKE_CXX_COMPILER_ID MATCHES "GNU" OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+-    add_compile_options(-Wall -Wextra -Wpedantic -Werror -Wdeprecated -fPIC)
++    add_compile_options(-Wall -Wextra -Wpedantic -Wdeprecated -fPIC)
+   endif()
+ 
+   if(COVERAGE_ENABLED)
+-- 
+2.47.1
+
