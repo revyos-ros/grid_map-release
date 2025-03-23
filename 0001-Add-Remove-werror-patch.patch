@@ -1,0 +1,53 @@
+From 719a36c386041c46f7edf83bab30c347373b42ee Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <z572@z572.online>
+Date: Sun, 23 Mar 2025 17:14:03 +0800
+Subject: [PATCH] Add Remove werror patch.
+
+---
+ debian/patches/0001-Remove-Werror.patch | 25 +++++++++++++++++++++++++
+ debian/patches/series                   |  1 +
+ 2 files changed, 26 insertions(+)
+ create mode 100644 debian/patches/0001-Remove-Werror.patch
+ create mode 100644 debian/patches/series
+
+diff --git a/debian/patches/0001-Remove-Werror.patch b/debian/patches/0001-Remove-Werror.patch
+new file mode 100644
+index 0000000..0b54ac0
+--- /dev/null
++++ b/debian/patches/0001-Remove-Werror.patch
+@@ -0,0 +1,25 @@
++From b5c20ce967c112822d46e7e9dde61923f20fff59 Mon Sep 17 00:00:00 2001
++From: Zheng Junjie <z572@z572.online>
++Date: Sun, 23 Mar 2025 17:13:19 +0800
++Subject: [PATCH] Remove Werror.
++
++---
++ cmake/grid_map_package.cmake | 2 +-
++ 1 file changed, 1 insertion(+), 1 deletion(-)
++
++diff --git a/cmake/grid_map_package.cmake b/cmake/grid_map_package.cmake
++index 4867a92..291c9f3 100644
++--- a/cmake/grid_map_package.cmake
+++++ b/cmake/grid_map_package.cmake
++@@ -17,7 +17,7 @@ macro(grid_map_package)
++   endif()
++ 
++   if(CMAKE_CXX_COMPILER_ID MATCHES "GNU" OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
++-    add_compile_options(-Wall -Wextra -Wpedantic -Werror -Wdeprecated -fPIC)
+++    add_compile_options(-Wall -Wextra -Wpedantic -Wdeprecated -fPIC)
++   endif()
++ 
++   if(COVERAGE_ENABLED)
++-- 
++2.47.1
++
+diff --git a/debian/patches/series b/debian/patches/series
+new file mode 100644
+index 0000000..beed7db
+--- /dev/null
++++ b/debian/patches/series
+@@ -0,0 +1 @@
++0001-Remove-Werror.patch
+-- 
+2.48.1
+
